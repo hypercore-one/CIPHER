@@ -12,14 +12,6 @@ Since then, development of the network has been taken on by the wider Zenon comm
 The network currently incorporates both PoS and PoW, and is designed to incorporate more PoW in the future.
 As with most networks that utilize PoS, various aspects of the network have started out more centralized than others.
 
-## xStakes, the Legacy Network, and Genesis
-
-WIP
-
-## Dual Coin Economy
-
-WIP
-
 ## Pillar Election
 
 While the founding developers have described a future consensus architecture utilizing PoW and virtual voting,
@@ -40,17 +32,6 @@ After enough network participants upgrade their clients, the spork can be activa
 The reference implementation of the protocol go-zenon automatically halts if a spork is activated that it is not configured for.
 
 Currently sporks can only be created by an address controlled by the founding developers.
+This means that effectively the founding devs could halt the network by creating and activating a spork that Pillars have implemented.
 Mr Kaine has stated the community will need to develop the functionality for network validators to vote on spork creation and activation.
 It is currently under active development.
-
-## Accelerator-Z
-
-WIP
-
-## Bridge Multi-Signature
-
-WIP
-
-## Liquidity Orbital Rewards
-
-WIP
