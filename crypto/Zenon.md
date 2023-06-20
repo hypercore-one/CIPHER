@@ -33,6 +33,6 @@ After enough network participants upgrade their clients, the spork can be activa
 The reference implementation of the protocol go-zenon automatically halts if a spork is activated that it is not configured for.
 
 Currently sporks can only be created by an address controlled by the founding developers.
-This means that effectively the founding devs could halt the network by creating and activating a spork that Pillars have implemented.
+This means that effectively the founding devs or a someone who has compromised the key could halt the network by creating and activating a spork that none of the Pillars have implemented.
 Mr Kaine has stated the community will need to develop the functionality for network validators to vote on spork creation and activation.
 It is currently under active development.
