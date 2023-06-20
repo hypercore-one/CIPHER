@@ -22,6 +22,7 @@ Network participants can delegate their ZNN to a Pillar and receive rewards base
 Every 5 minutes, 30 Pillars are assigned to create a Momentum each following a 10 second interval.
 15 of the pillars are uniformly selected from the top 30 pillars by delegation weight.
 The remaining 15 are uniformly selected from the unchosen top 30 pillars and the remaining pillars.
+This means that currently more than half of the momentums created will be by the top 30 pillars by delegation.
 
 ## Sporks
 
