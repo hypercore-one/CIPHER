@@ -14,8 +14,8 @@ As with most networks that utilize PoS, various aspects of the network have star
 
 ## Pillar Election
 
-While the founding developers have described a future consensus architecture utilizing PoW and virtual voting,
-the current consensus mechanism confirms transaction via a pseudo-random Pillar selection based on delegation weight.
+While the founding developers have described a future consensus architecture utilizing PoW and transaction level virtual voting,
+the current consensus mechanism confirms transaction by selecting Pillars via a pseudo-random virtual vote based on delegation weight.
 
 Network participants can delegate their ZNN to a Pillar and receive rewards based on a free-market of Pillar reward sharing.
 
