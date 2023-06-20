@@ -27,12 +27,12 @@ This means that currently more than half of the momentums created will be by the
 ## Sporks
 
 Zenon Network upgrades are facilitated through a protocol level embedded contract for creating and activating "sporks".
-A spork is on-chain object that represents a change in the protocol. Upon creation, a spork is assigned a unique hash ID.
+A spork is an on-chain object that represents a change in the protocol. Upon creation, a spork is assigned a unique hash ID.
 Developers of protocol clients can then use that ID in their implementations to check for spork activation on chain that will trigger changes in client behavior.
 After enough network participants upgrade their clients, the spork can be activated on-chain to complete the upgrade with the new protocol changes.
 The reference implementation of the protocol go-zenon automatically halts if a spork is activated that it is not configured for.
 
 Currently sporks can only be created by an address controlled by the founding developers.
-This means that effectively the founding devs or a someone who has compromised the key could halt the network by creating and activating a spork that none of the Pillars have implemented.
+This means that effectively the founding devs or someone who has compromised the key could halt the network by creating and activating a spork that none of the Pillars have implemented.
 Mr Kaine has stated the community will need to develop the functionality for network validators to vote on spork creation and activation.
 It is currently under active development.
